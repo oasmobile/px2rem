@@ -1,0 +1,19 @@
+{
+  "name": "@oasis-games/px2rem",
+  "version": "1.0.1",
+  "description": "px2rem",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oasmobile/px2rem.git"
+  },
+  "author": "Armand",
+  "license": "MIT",
+  "keywords": [
+    "px2rem"
+  ],
+  "bugs": {
+    "url": "https://github.com/oasmobile/px2rem/issues"
+  },
+  "homepage": "https://github.com/oasmobile/px2rem#readme"
+}
