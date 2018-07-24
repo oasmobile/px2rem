@@ -7,6 +7,4 @@ export default function px2rem(cltw) {
 
     resizeBaseFontSize();
     window.addEventListener("resize", resizeBaseFontSize, false);
-    window.addEventListener("orientationchange", resizeBaseFontSize, false);
-
 }
