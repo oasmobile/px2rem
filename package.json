@@ -1,8 +1,16 @@
 {
   "name": "@oasis-games/px2rem",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "px2rem",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "scripts": {
+    "prepublish": "node_modules/babel-cli/bin/babel.js src --out-dir lib"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/oasmobile/px2rem.git"
@@ -15,5 +23,10 @@
   "bugs": {
     "url": "https://github.com/oasmobile/px2rem/issues"
   },
-  "homepage": "https://github.com/oasmobile/px2rem#readme"
+  "homepage": "https://github.com/oasmobile/px2rem#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1"
+  }
 }
